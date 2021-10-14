@@ -1,0 +1,8 @@
+.brand-content .title{padding:60px 0px 60px 0px;text-align: center;background-image: url(../images/brand-title-bg.png);background-position: center bottom;}
+.brand-content .title .en{color: #ae7b4a;font-size:30px;}
+.brand-content .title .ch{font-size:24px;color: #000;}
+.brand-content .nav{text-align: center;padding:20px 0px 60px 0px;}
+.brand-content .nav a{display: inline-block;font-size:20px;margin:0px 20px;}
+.brand-content .nav span{display: inline-block;width:25px;border-bottom:1px solid #000;height:0px;vertical-align: middle;margin:-5px 25px 0px 25px;}
+.brand-content .nav a.on,
+.brand-content .nav a:hover{color:#b38355;}
