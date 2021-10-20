@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>洗衣</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link href="css/common.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+        <link rel="stylesheet" type="text/css" href="js/swiper-bundle.min.css" />
+        <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+        <script src="js/common.js"></script>
+    </head>
+    <body>
+        <!-- top -->
+        <div class="top">
+            <img src="images/show-menu.png" class="show-menu" id="showMenu">
+        </div>
+        <!-- banner -->
+        <div class="swiper-container banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(images/banner1.jpg);"></div>
+                <div class="swiper-slide">banner 2</div>
+                <div class="swiper-slide">banner 3</div>
+            </div>
+        </div>
+        <!-- 品牌优势 -->
+        <div class="brand">
+            <div class="tit">颠覆传统  优领行业  传统店铺也可以这样“潮”</div>
+            <img src="images/index-brand-content.png" class="content"/>
+            <div class="line"></div>
+            <div class="text"></div>
+            <div style="text-align: center;">
+                <a class="link">点击了解更多></a>
+            </div>
+        </div>
+        <!-- 赚得多 -->
+        <div class="zdd">
+            <div class="tit">打破行业淡季，独创“一店抵四店”的盈利模式，让门店利润翻番。</div>
+            <img class="content" src="images/index-zdd-content.png"/>
+            <div style="text-align: center; padding:.8rem 0rem 1.5rem 0rem;">
+                <a class="link">点击了解更多></a>
+            </div>
+        </div>
+        <!-- 赚的轻松 -->
+        <div class="zdqs">
+            <div class="tit">
+                斥巨资开发专属印象管家的美团式APP，众享懒人经济，<br/>
+                消费者足不出户享受服务，加盟商足不出户接收订单，实现“躺赚”。
+            </div>
+            <img src="images/index-zdqs-content.png" class="content"/>
+            <div style="text-align: center; padding:.8rem 0rem 1.5rem 0rem;">
+                <a class="link">点击了解更多></a>
+            </div>
+            <img src="images/index-zdqs-tel.jpg" class="tel"/>
+        </div>
+        <!-- menu-->
+        <div class="menu" id="menu">
+            <a class="item" href="/m/">印象管家</a>
+            <a class="item" href="/m/news1.html">干洗加盟</a>
+            <a class="item" href="/m/news2.html">干洗店成本</a>
+            <a class="item" href="/m/news3.html">干洗店利润</a>
+            <a class="item" href="/m/news4.html">干洗店品牌</a>
+            <a class="item" href="/m/news5.html">加盟指南</a>
+            <a class="item" href="/m/brands.html">品牌文化</a>
+            <a class="item" href="/m/app.html">APP</a>
+            <a class="item" href="/m/image.html">店铺形象</a>
+            <a class="item" href="/m/contact.html">联系我们</a>
+        </div>
+        <!-- bottom -->
+        <div class="bottom">
+            <a class="item">
+                <img src="images/bottom-call.png"/>
+                <div>电话咨询</div>
+            </a>
+            <a class="item">
+                <img src="images/bottom-msg.png"/>
+                <div>我要留言</div>
+            </a>
+            <a class="item">
+                <img src="images/bottom-kf.png"/>
+                <div>在线咨询</div>
+            </a>
+            <a class="item" href="/m/">
+                <img src="images/bottom-home.png"/>
+                <div>返回首页</div>
+            </a>
+        </div>
+    </body>
+    <script>        
+        var mySwiper = new Swiper ('.banner', {
+          direction: 'horizontal', // 垂直切换选项
+          loop: true, // 循环模式选项
+        })        
+    </script>
+</html>

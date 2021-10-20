@@ -1,0 +1,15 @@
+.banner{height:23rem;background-color: #f1f1f1;}
+.banner .swiper-slide{background-size:auto 100%;line-height: 23rem;text-align: center;}
+
+.brand .tit{font-size:.6rem;text-align: center;padding-top:7rem;background-image: url(../images/index-brand-title.png);background-size:auto 3.6rem;}
+.brand .content{width:100%;height:auto;margin-top:1rem;}
+.brand .line{background-image: url(../images/index-brand-line.jpg);height:1.5rem;background-size:auto 100%;margin:1rem 0rem;}
+.brand .text{height:6.2rem;background-image: url(../images/index-brand-text.png);background-size:auto 100%;margin:.5rem 0rem 1.5rem 0rem;}
+
+.zdd{background-image:url(../images/index-zdd-bg.jpg);margin-top:2rem;}
+.zdd .tit{font-size:.6rem;color: #fff;text-align: center;padding-top:7rem;background-image: url(../images/index-zdd-title.png);background-size:auto 3.6rem;}
+.zdd .content{width:100%;height: auto;margin-top:.7rem;}
+
+.zdqs .tit{font-size:.6rem;text-align: center;padding-top:8rem;background-image: url(../images/index-zdqs-title.png);background-size:auto 3.6rem;}
+.zdqs .content{width:100%;height: auto;margin-top:1rem;}
+.zdqs .tel{width:100%;height:auto;}

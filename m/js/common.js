@@ -1,0 +1,9 @@
+$(function(){
+    $("#showMenu").on("click",function(){
+        if($("#menu").hasClass("menu-show")){
+            $("#menu").removeClass("menu-show");
+        }else{
+            $("#menu").addClass("menu-show");
+        }
+    });
+})
